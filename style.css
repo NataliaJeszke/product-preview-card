@@ -1,0 +1,65 @@
+:root {
+  --Darkcyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  --Darkblue: hsl(212, 21%, 14%);
+  --DarkGrayBlue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--DarkGrayBlue);
+}
+.product{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    color: var(--DarkGrayBlue);
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.productName{
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+    color: var(--Darkblue);
+}
+
+.description{
+    margin-top: 10px;
+}
+
+.price{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.newPrice{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    color: var(--Darkcyan);
+}
+
+.oldPrice{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--DarkGrayBlue);
+    text-decoration: line-through;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12px;   
+}
+
+.btn-success{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    background-color: var(--Darkcyan)!important;
+}
+
+.footer{
+    display: flex;
+}
