@@ -4,12 +4,16 @@
   --Darkblue: hsl(212, 21%, 14%);
   --DarkGrayBlue: hsl(228, 12%, 48%);
   --White: hsl(0, 0%, 100%);
+  --Active: #12271f;
 }
 
 p{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: var(--DarkGrayBlue);
+}
+.container{
+    padding: 20px;
 }
 .product{
     font-family: 'Montserrat', sans-serif;
@@ -60,6 +64,15 @@ p{
     background-color: var(--Darkcyan)!important;
 }
 
+.btn-success:hover{
+    background-color: var(--Active)!important;;
+}
+
 .footer{
     display: flex;
+    margin-top: 20px;
+}
+
+.fa-square-github{
+    margin-left: 5px;
 }
