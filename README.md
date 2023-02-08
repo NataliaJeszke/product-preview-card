@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 Mobile version
-![](https://drive.google.com/file/d/1ysflvvJ8v6jBcB9ExT6BNRIuvYLenGG9/view?usp=share_link)
+https://drive.google.com/file/d/1ysflvvJ8v6jBcB9ExT6BNRIuvYLenGG9/view?usp=share_link
 Desktop version
-![](https://drive.google.com/file/d/1O6whuyOuwvBjOBECgPTeuy85CGmijv58/view?usp=share_link)
+https://drive.google.com/file/d/1O6whuyOuwvBjOBECgPTeuy85CGmijv58/view?usp=share_link
 
 
 ### Links
