@@ -16,6 +16,10 @@ p{
     font-family: 'Montserrat', sans-serif;
     color: var(--DarkGrayBlue);
 }
+
+a:link{
+    text-decoration: none;
+}
 .container{
     padding: 20px;
 
