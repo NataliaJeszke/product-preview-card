@@ -145,14 +145,14 @@ border-bottom-right-radius: 25px;
 
   @media screen and (min-width: 576px){
     .product{
-        font-size: 10px;
+        font-size: 8px;
     }
     .productName{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     p{
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .pictureContainer{
@@ -171,16 +171,33 @@ border-bottom-right-radius: 25px;
     }
 
     .newPrice{
-        font-size: 22px;
+        font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 260px){
+    .product{
+        font-size: 18px;
+    }
+    .productName{
+        font-size: 35px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .price{
+        display: flex;
+        flex-wrap: wrap;
     }
   }
 
   @media screen and (min-width: 768px){
     .product{
-        font-size: 20px;
+        font-size: 18px;
     }
     .productName{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     p{
@@ -190,15 +207,15 @@ border-bottom-right-radius: 25px;
 
   @media screen and (min-width: 992px){
     .product{
-        font-size: 30px;
+        font-size: 18px;
     }
     .productName{
-        font-size: 70px;
+        font-size: 60px;
         margin-right: 20px;
     }
 
     p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .newPrice{
         font-size: 30px;
