@@ -26,14 +26,14 @@
   <body>
     <div class="container">
       <div class="row main">
-        <div class="row-sm col-md-6">
-          <img
-            src="/image-product-mobile.jpg"
-            class="img-fluid"
-            alt="Perfume image"
-          />
+        <div class="col-sm pictureContainer">
+          <picture>
+            <source srcset="./image-product-mobile.jpg" class="imageSmall" media="(max-width: 576px)">
+            <source srcset="./image-product-desktop.jpg" class="imageBig">
+            <img src="./image-product-mobile.jpg" class="img-fluid" alt="Product image">
+          </picture>
         </div>
-        <div class="col productMain">
+        <div class="col-sm productMain">
           <div><h6 class="product">Perfume</h6></div>
           <div>
             <h1 class="productName">Gabrielle Essence Eau De Parfum</h1>
@@ -51,11 +51,11 @@
           <div class="d-grid">
             <button type="button" class="btn btn-success">Add to Cart</button>
           </div>
+          <div class="row footerContainer">
+            <p>Challenge by Frontend Mentor. Coded by Natalia<i class="fa-brands fa-square-github fa-lg"></i></p>
+        </div>
         </div>
       </div>
-      <footer class="footer">
-        <p>Challenge by Frontend Mentor. Coded by Natalia<i class="fa-brands fa-square-github fa-lg"></i></p>
-      </footer>
     </div>
   </body>
 </html>
